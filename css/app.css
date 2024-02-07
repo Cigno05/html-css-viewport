@@ -29,9 +29,7 @@ body {
 /* LAYOUT */
 
 .container {
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 12px;
+    
 }
 
 .row {
@@ -91,7 +89,141 @@ body {
 
 
 
+/* STYLE */
 
+button {
+    border: none;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.white {
+    background-color: white;
+}
+
+main {
+    height: calc(100vh - 60px);
+}
+/* SIDEBAR */
+
+.sidebar {
+    width: 200px;
+    background-color: #000000;
+    
+}
+
+/* APP_PAGE */
+
+.app-page {
+    flex-grow: 1;
+
+}
+
+/* FOOTER */
+
+.footer-nav {
+    height: 60px;
+}
+
+
+
+
+
+/* 
+.aside-menu .container{
+    min-width: 200px;
+    background-color: black;
+    color: white;
+}
+
+.aside-menu .row {
+    flex-direction: column;
+    gap: 10px;
+    height: calc(100vh - 60px);
+
+}
+
+.logo {
+    width: 150px;
+    
+}
+
+.aside-link *{
+    list-style: circle;
+    
+}
+
+.aside-profile *{
+
+    justify-content: flex-end;
+    
+}
+
+.aside-menu .row{
+    align-content: center;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+.main.page {
+    flex-grow: 1;
+}
+.main-menu {
+    background-color: #0E121B;
+    
+}
+
+.main-menu .container {
+    justify-content: flex-end;
+    flex-grow: 1;
+    height: 50px;
+    align-items: center;
+}
+
+.main-content {
+    height: 100vh;
+    flex-grow: 1;
+}
+
+
+
+
+
+.footer-nav {
+    
+    background-color: #0E121B;
+    
+    
+    color: white;
+}
+
+.footer-nav .container {
+    
+    
+    height: 60px;
+    align-items: center;
+    
+    
+}
+
+.footer-nav .row {
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.container-link .nav-link {
+    gap: 10px;
+} */
 
 
 
@@ -100,7 +232,7 @@ body {
 /* debug */
 
 .debug .container {
-    border: 2px solid black;
+    border: 2px solid purple;
 }
 
 .debug .row {
@@ -110,3 +242,4 @@ body {
 .debug [class^="col"] {
     border: 2px solid green;
 }
+
