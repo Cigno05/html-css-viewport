@@ -102,6 +102,16 @@ button {
     background-color: white;
 }
 
+.text-white {
+    color: white;
+}
+
+
+
+
+
+/* MAIN */
+
 main {
     height: calc(100vh - 60px);
 }
@@ -113,17 +123,31 @@ main {
     
 }
 
+/* PAGE */
+
+.page {
+    flex-grow: 1;
+}
+
+/* TOP_PAGE */
+
+.top-page {
+    background-color: #0E121B;
+    height: 40px;
+}
+
 /* APP_PAGE */
 
 .app-page {
-    flex-grow: 1;
-
+    background-color: #141923;
+    height: calc(100vh - 100px);
 }
 
 /* FOOTER */
 
 .footer-nav {
     height: 60px;
+    background-color: #282828;
 }
 
 
