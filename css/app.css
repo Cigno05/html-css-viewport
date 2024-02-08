@@ -242,6 +242,7 @@ footer {
     height: 60px;
     background-color: #282828;
     padding: 10px;
+    position: relative;
     
 }
 
